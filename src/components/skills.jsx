@@ -58,7 +58,7 @@ function Skills() {
     return (
         <div className='skills min-h-[500px] bg-black p-5 pt-20'>
             <p className='text-[2.5rem] border-b-2 text-white text-[4rem] font-bold' >Skills</p>
-            <div className='flex flex-wrap gap-4 mt-15 justify-center items-center h-[100%]'>
+            <div className='grid grid-cols-2 gap-4 mt-15 justify-center items-center h-[100%] sm:grid-cols-3 md:grid-cols-4 lg:flex lg:flex-wrap'>
                 {skillArr.map((item)=>(
                     <div className='w-[180px] h-[150px] bg-gray-900 flex flex-col p-3 justify-center items-center rounded gap-2'>
                     <img src={item.img} alt="" className='h-[60%] w-[50%]'/>
