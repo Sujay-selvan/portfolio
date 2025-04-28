@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function About() {
     return (
         <div className="about min-h-[600px] flex flex-col">
-            <div className="w-full bg-black flex flex-col p-5">
+            <div className="w-full bg-black flex flex-col p-5 order-0">
                 <p className="text-[60px] font-extrabold text-white border-b-2">About</p>
                 <p className="text-orange-400 font-bold mt-7">Let's know who I am !?</p>
                 <p className="text-[1.2rem] text-justify mt-2 text-white">Hi, I'm Sujay, a passionate Full Stack Web Developer with a Master of Computer Applications (MCA) (2024). I have a strong foundation in MERN stack development and a keen interest in building dynamic, scalable, and user-friendly web applications.</p>
@@ -22,7 +22,7 @@ export default function About() {
                 </div>
                 
             </div>
-            <div className="relative bg-white  flex w-full flex-col justify-centee items-center mt-10 h-[400px]">
+            <div className="relative bg-white  flex w-full flex-col justify-centee items-center mt-10 h-[400px] order-1">
                 <div className="relative flex gap-10 ">
                     <TbBrandLinkedinFilled className="text-[2rem] absolute right-13 top-15"/>
                     <FaGithub className="text-[2rem] absolute right-5 top-5" />
