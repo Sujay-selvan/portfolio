@@ -30,7 +30,7 @@ export default function About() {
                     <FaInstagram className="text-[2rem] absolute left-13 top-5"/>
                     <FaXTwitter className="text-[2rem] absolute left-22 top-15"/>
                 </div>
-                <img src={img} alt="" className="p-10 lg:h-[100%]" />
+                <img src={img} alt="" className="p-10 h-[87%] md:h-[98%] lg:h-[100%]" />
                 <div className="absolute bottom-0">
                     <p className="text-[18px] font-extrabold absolute bottom-32 left-2 ">Hey, I'm</p>
                     <p className="sujay text-[7rem] font-extrabold">SUJAY</p>

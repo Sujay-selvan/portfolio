@@ -6,7 +6,7 @@ import { TiThMenu } from "react-icons/ti";
 function Menu(){
    let [hideNav,setHidenav] = useState(false);
     return(
-        <div className="menu bg-gray-500 flex justify-between item-center p-2 flex-col">
+        <div className="menu bg-black text-white flex justify-between item-center p-2 flex-col">
             <div className="flex justify-between">
             <p className="text-[30px]">Portfolio</p>
             <TiThMenu className="text-[3rem]" onClick={()=>setHidenav(!hideNav)}/>

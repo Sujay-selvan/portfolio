@@ -13,7 +13,7 @@ export default function Contact() {
     return (
         <div className='bg-black p-5'>
             <p className='text-[2.5rem] font-bold text-center text-white text-[4rem]'>contact <span className='text-red-600'>ME</span></p>
-            <div className='flex gap-10 mt-11 flex-col'>
+            <div className='flex gap-10 mt-11 flex-col md:grid md:grid-cols-2'>
                 <div className='text-gray-200'>
                     <div>
                         <p className='text-[1.5rem]'>GET IN TOUCH</p>
