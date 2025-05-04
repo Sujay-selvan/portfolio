@@ -119,9 +119,10 @@
   bottom: 6px;
   width: 80%;
   text-align: center;
-  background: rgba(225,225,225,0.5);
+  background: rgba(225,225,225,0.3);
   padding: 5px 0px;
   color: white;
+  font-size: 1.1rem;
 }
 
 .swiper-controler{

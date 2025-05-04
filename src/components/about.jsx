@@ -34,7 +34,7 @@ export default function About() {
                 <img src={img} alt="" className="p-10 h-[87%] md:h-[98%] lg:h-[100%]" />
                 <div className="absolute bottom-0">
                     <p className="text-[18px] font-extrabold absolute bottom-32 left-2 ">Hey, I'm</p>
-                    <p className="sujay text-[7rem] ">SUJAY</p>
+                    <p className="sujay text-[7rem] font-extrabold">SUJAY</p>
                 </div>
             </div>
         </div>
