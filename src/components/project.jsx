@@ -44,12 +44,12 @@ export default function Project() {
                   }}
                 className='w-[80%]'
             >
-                <SwiperSlide><div className='slideDiv'><img src={img1} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
-                <SwiperSlide><div className='slideDiv'><img src={img2} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
-                <SwiperSlide><div className='slideDiv'><img src={img3} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
-                <SwiperSlide><div className='slideDiv'><img src={img4} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
-                <SwiperSlide><div className='slideDiv'><img src={img5} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
-                <SwiperSlide><div className='slideDiv'><img src={img6} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
+                <SwiperSlide><div className='slideDiv'><img src={img1} alt="" className='slideImg'/><a href="https://simple-crud-1-uzmh.onrender.com/">MINI-CRUD APP</a></div></SwiperSlide>
+                <SwiperSlide><div className='slideDiv'><img src={img2} alt="" className='slideImg'/><a href="https://add-to-cart-mini.netlify.app/">MINI Add to Cart</a></div></SwiperSlide>
+                <SwiperSlide><div className='slideDiv'><img src={img3} alt="" className='slideImg'/><a href="https://67da5989342638ba65bccb3a--mini-image-search.netlify.app/">MINI-Image Search</a></div></SwiperSlide>
+                <SwiperSlide><div className='slideDiv'><img src={img4} alt="" className='slideImg'/><a href="https://sujay-selvan.github.io/Calculator/">Calculator</a></div></SwiperSlide>
+                <SwiperSlide><div className='slideDiv'><img src={img5} alt="" className='slideImg'/><a href="https://fluffy-dusk-a2bb46.netlify.app/">Flower Gallery</a></div></SwiperSlide>
+                <SwiperSlide><div className='slideDiv'><img src={img6} alt="" className='slideImg'/><a href="https://mini-product-details.netlify.app/">MINI-Product-Details</a></div></SwiperSlide>
             </Swiper>
             <div className="swiper-controler">
                 <button className="custom-prev"><FaArrowAltCircleLeft className='text-[1.5rem]'/></button>
