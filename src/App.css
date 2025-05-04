@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+
 .menu{
   width: 100%;
 }
@@ -99,103 +101,51 @@
   
 
   /* project */
+.slideDiv{
+  width: 350px;
+  height: 270px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.slideImg{
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.slideDiv a{
+  position: absolute;
+  z-index: 9;
+  bottom: 6px;
+  width: 80%;
+  text-align: center;
+  background: rgba(225,225,225,0.5);
+  padding: 5px 0px;
+  color: white;
+}
 
-  .gallery-container {
-    width: 100%;
-    max-width: 1300px;
-    margin: auto;
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  
-  .flowerSwiper {
-    padding-bottom: 50px;
-  }
-  
-  .flowerSwiper .swiper-slide {
-    background: #fff;
-    width: 350px;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    position: relative;
-  }
-  .flowerSwiper .swiper-slide button{
-    position: absolute;
-    color: white;
-    border: 1px solid white;
-    width: 200px;
-    height: 30px;
-    bottom: 40px;
-    border-radius: 5px;
-    background: rgba(0,0,0,0.5);
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  .swiper-slide button:hover {
-    background-color: #ffffff22;
-  }
-  .flowerSwiper .swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-  }
-  
-  .swiper-button-prev,
-  .swiper-button-next {
-    color: #333;
-  }
-  
-  .swiper-pagination-bullet {
-    background: #bbb;
-    opacity: 1;
-  }
-  
-  .swiper-pagination-bullet-active {
-    background: #333;
-  }
-
-  .swiper-controler{
-    width: 250px;
-    height: 35px;
-    /* border: 1px solid black; */
-    margin: auto;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-controler button{
-    border: none;
-    background: transparent;
-    font-size: 25px;
-  }
-  .custom-prev{
-    position: absolute;
-    left: 0;
-    top: 13px;
-  }
-  .custom-next{
-    position: absolute;
-    right: 0;
-    top: 13px;
-  }
-  .custom-pagination{
-    margin-top: 15px;
-  }
-
+.swiper-controler{
+  width: 250px;
+  height: 35px;
+  margin: auto;
+  text-align: center;
+  /* background: red; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.custom-prev,.custom-next{
+position: absolute;
+}
+.custom-prev{
+  left: 10px;
+}
+.custom-next{
+  right: 10px;
+}
   /* contact */
 
   /* Custom CSS - add to your global styles */

@@ -4,7 +4,7 @@ import myImg from '../image/profile.png'
 export default function Home(){
     return(
         <>
-            <div className="home relative font-anton h-[480px] flex flex-col items-center justify-center text-center  sm:h-160">
+            <div className="home relative font-anton h-[530px] flex flex-col items-center justify-center text-center  sm:h-160">
                 {/* <img src={myImg} alt="myImg" className='h-[80%] w-[60%]'/> */}
                 {/* <p className='absolute bottom-105 text-[1.5rem] font-bold'></p> */}
                 <p className="text-[4rem] font-anton font-black absolute bottom-85 sm:text-[6rem] sm:bottom-100">Full Stack</p>

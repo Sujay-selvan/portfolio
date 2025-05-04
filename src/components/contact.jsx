@@ -51,9 +51,9 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className=' bg-white mt-10 p-6 flex flex-col gap-4 h-[30rem]'>
+                <div className=' bg-gray-100 mt-10 p-6 flex flex-col gap-4 h-[30rem]'>
                     <div className='w-full flex gap-5'>
-                        <input type="text" placeholder='your name' className='w-[48%] border rounded p-1 pl-2 focus:outline-none'/>
+                        <input type="text" placeholder='your name' className='w-[48%] border rounded p-1 pl-2 focus:outline-none '/>
                         <input type="text" placeholder='your number' className='w-[48%] border rounded p-1 pl-2 focus:outline-none'/>
                     </div>
                     <div className='w-full flex gap-5'>

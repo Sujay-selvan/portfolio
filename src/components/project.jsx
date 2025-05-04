@@ -12,31 +12,26 @@ import img3 from '../image/img3.jpg'
 import img4 from '../image/img4.jpg'
 import img5 from '../image/img5.jpg'
 
-import { FaArrowAltCircleRight,FaArrowAltCircleLeft } from "react-icons/fa";
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
 export default function Project() {
+
+    const slideStyle = {
+        // height: '300px',
+        // display: 'flex',
+        // alignItems: 'center',
+        // justifyContent: 'center',
+        // fontSize: '24px',
+        // backgroundColor: '#eee',
+    };
+
     return (
-        <div className="gallery-container">
-            <h2 className="title">My Projects</h2>
+        <div className="gallery-container mt-10 mb-15">
+            <p className="text-[3rem] font-black text-white  [-webkit-text-stroke:2px_black] mb-16 text-center"><span className='text-red-600 [-webkit-text-stroke:0.5px_black]'>My</span> Project</p>
             <Swiper
-                effect="coverflow"
-                grabCursor={true}
-                centeredSlides={true}
-                slidesPerView="auto"
-                loop={true}
-                autoplay={
-                    {
-                        delay: 4500,
-                        disableOnInteraction: false
-                    }
-                }
-                coverflowEffect={{
-                    rotate: 90,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 4,
-                    slideShadows: true,
-                }}
+                modules={[Navigation, Pagination, Autoplay]}
+                spaceBetween={50}
+                // slidesPerView={3}
                 pagination={{
                     el: '.custom-pagination',
                     clickable: true,          
@@ -45,46 +40,35 @@ export default function Project() {
                     nextEl: '.custom-next',
                     prevEl: '.custom-prev'
                   }}
-                modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-                className="flowerSwiper"
+                autoplay={{ delay: 3000 }}
+                loop={true}
+                breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                    },
+                  }}
+                className='w-[80%]'
             >
-                <SwiperSlide>
-                    <img src={img1} alt="1" />
-                    <button><a href="#">Live</a></button>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={img2} alt="2" />
-                    <button><a href="#">Live</a></button>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={img3} alt="3" />
-                    <button><a href="#">Live</a></button>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={img4} alt="4" />
-                    <button><a href="#">Live</a></button>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={img5} alt="5" />
-                    <button><a href="#">Live</a></button>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={img4} alt="4" />
-                    <button><a href="#">Live</a></button>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={img4} alt="4" />
-                    <button><a href="#">Live</a></button>
-                </SwiperSlide>
+                <SwiperSlide><div style={slideStyle} className='slideDiv'><img src={img1} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
+                <SwiperSlide><div style={slideStyle} className='slideDiv'><img src={img2} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
+                <SwiperSlide><div style={slideStyle} className='slideDiv'><img src={img3} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
+                <SwiperSlide><div style={slideStyle} className='slideDiv'><img src={img4} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
+                <SwiperSlide><div style={slideStyle} className='slideDiv'><img src={img5} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
+                <SwiperSlide><div style={slideStyle} className='slideDiv'><img src={img2} alt="" className='slideImg'/><a href="#">MINI-CRUD APP</a></div></SwiperSlide>
             </Swiper>
-
             <div className="swiper-controler">
-                <button className="custom-prev"><FaArrowAltCircleLeft /></button>
-                <button className="custom-next"><FaArrowAltCircleRight /></button>
+                <button className="custom-prev"><FaArrowAltCircleLeft className='text-[1.5rem]'/></button>
+                <button className="custom-next"><FaArrowAltCircleRight className='text-[1.5rem]'/></button>
                 <div className="custom-pagination"></div>
             </div>
-
         </div>
+
+
+
     );
+
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import img from '../image/profile.png'
+import '../App.css';
 
 import { TbBrandLinkedinFilled } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
@@ -11,7 +12,7 @@ export default function About() {
     return (
         <div className="about min-h-[600px] flex flex-col md:flex-row md:items-center">
             <div className="w-full bg-black flex flex-col p-5 order-0">
-                <p className="text-[60px] font-extrabold text-white border-b-2">About</p>
+                <p className="text-[60px] font-extrabold text-white border-b-2"><span className="text-red-600">A</span>bout</p>
                 <p className="text-orange-400 font-bold mt-7">Let's know who I am !?</p>
                 <p className="text-[1.2rem] text-justify mt-2 text-white">Hi, I'm Sujay, a passionate Full Stack Web Developer with a Master of Computer Applications (MCA) (2024). I have a strong foundation in MERN stack development and a keen interest in building dynamic, scalable, and user-friendly web applications.</p>
                 <p className="text-[1.2rem] text-justify mt-2 text-white">I have completed a Full Stack Web Development course, enhancing my expertise in React, Node.js, Express.js, and MongoDB. Additionally, I hold a Python certification from NPTEL Swayam, showcasing my versatility in backend development and automation.</p>
@@ -33,7 +34,7 @@ export default function About() {
                 <img src={img} alt="" className="p-10 h-[87%] md:h-[98%] lg:h-[100%]" />
                 <div className="absolute bottom-0">
                     <p className="text-[18px] font-extrabold absolute bottom-32 left-2 ">Hey, I'm</p>
-                    <p className="sujay text-[7rem] font-extrabold">SUJAY</p>
+                    <p className="sujay text-[7rem] ">SUJAY</p>
                 </div>
             </div>
         </div>
