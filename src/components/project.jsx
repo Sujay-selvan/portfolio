@@ -19,7 +19,7 @@ export default function Project() {
 
     return (
         <div className="gallery-container mt-10 mb-15">
-            <p className="text-[4rem] font-black text-white  [-webkit-text-stroke:1.2px_black] mb-16 text-center"><span className='text-red-600 [-webkit-text-stroke:0.5px_black]'>My</span> Project</p>
+            <p className="text-[3rem] md:text-[4rem] font-black text-white  [-webkit-text-stroke:1.2px_black] mb-10 md:mb-16 text-center"><span className='text-red-600 [-webkit-text-stroke:0.5px_black]'>My</span> Project</p>
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 spaceBetween={50}
@@ -38,11 +38,14 @@ export default function Project() {
                     0: {
                       slidesPerView: 1,
                     },
+                    505:{
+                        slidesPerView:2,
+                    },
                     768: {
                       slidesPerView: 3,
                     },
                   }}
-                className='w-[80%]'
+                className='w-[95%] md:w-[80%] slidOver'
             >
                 <SwiperSlide><div className='slideDiv'><img src={img1} alt="" className='slideImg'/><a href="https://simple-crud-1-uzmh.onrender.com/">MINI-CRUD APP</a></div></SwiperSlide>
                 <SwiperSlide><div className='slideDiv'><img src={img2} alt="" className='slideImg'/><a href="https://add-to-cart-mini.netlify.app/">MINI Add to Cart</a></div></SwiperSlide>

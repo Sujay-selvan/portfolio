@@ -147,6 +147,17 @@ position: absolute;
 .custom-next{
   right: 10px;
 }
+
+@media only screen and (max-width:504px){
+  .slideDiv{
+    width: 100%;
+    height: 320px;
+  }
+  .swiper-controler{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
   /* contact */
 
   /* Custom CSS - add to your global styles */
