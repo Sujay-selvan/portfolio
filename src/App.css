@@ -166,7 +166,7 @@ body{
 .slideDiv a{
   position: absolute;
   z-index: 9;
-  bottom: 6px;
+  bottom: 19px;
   width: 80%;
   text-align: center;
   background: rgba(225,225,225,0.3);
