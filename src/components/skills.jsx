@@ -56,7 +56,7 @@ function Skills() {
 ];
 
     return (
-        <div className='skills min-h-[500px] bg-black p-5 pt-20'>
+        <div className='skills min-h-[500px] bg-black p-5 pt-20' id='skill'>
             <p className='text-[2.5rem] border-b-2 text-white text-[4rem] font-bold' ><span className='text-red-600'>S</span>kills</p>
             <div className='grid grid-cols-2 gap-4 mt-15 justify-center items-center h-[100%] sm:grid-cols-3 md:grid-cols-4 lg:flex lg:flex-wrap'>
                 {skillArr.map((item)=>(

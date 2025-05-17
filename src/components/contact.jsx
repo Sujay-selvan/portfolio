@@ -11,7 +11,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Contact() {
     return (
-        <div className='bg-black p-5'>
+        <div className='bg-black p-5' id='contact'>
             <p className='text-[2.5rem] font-bold text-center text-white text-[4rem]'>contact <span className='text-red-600'>ME</span></p>
             <div className='flex gap-10 mt-11 flex-col md:grid md:grid-cols-2'>
                 <div className='text-gray-200'>
@@ -42,11 +42,11 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className='flex gap-2 text-[1.5rem] mt-5 text-white'>
-                            <FaFacebook />
-                            <FaSquareXTwitter />
-                            <FaLinkedin />
-                            <FaInstagram />
-                            <FaGithubSquare />
+                            <a href="https://www.facebook.com/sujay.selvan.5/"></a><FaFacebook />
+                            <a href="https://x.com/sujayselvan"></a><FaSquareXTwitter />
+                            <a href="https://www.linkedin.com/in/sujay-senthamilselvan-58077231b/"></a><FaLinkedin />
+                            <a href="https://www.instagram.com/_sujayx/"></a><FaInstagram />
+                            <a href="https://github.com/Sujay-selvan"></a><FaGithubSquare />
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 
-
+body{
+  background: black;
+}
 .menu{
   width: 100%;
 }
@@ -102,11 +104,59 @@
 
   /* project */
 .slideDiv{
-  width: 350px;
-  height: 270px;
+  width: 330px;
+  height: 330px;
   position: relative;
   display: flex;
+  flex-grow: 1;
   justify-content: center;
+}
+
+
+@media only screen and (max-width:1542px){
+  .slideDiv{
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width:1142px){
+  .slideDiv{
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width:998px){
+  .slideDiv{
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width:908px){
+  .slideDiv{
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width:844px){
+  .slideDiv{
+    width: 250px;
+  }
+}
+@media only screen and (max-width:766px){
+  .slideDiv{
+    width: 350px;
+  }
+}
+@media only screen and (max-width:710px){
+  .slideDiv{
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width:596px){
+  .slideDiv{
+    width: 260px;
+  }
 }
 .slideImg{
   width: 100%;
@@ -135,7 +185,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 .custom-prev,.custom-next{

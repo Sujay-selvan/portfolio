@@ -29,7 +29,7 @@ export default function Education() {
     ]
 
     return (
-        <div className='bg-black'>
+        <div className='bg-black' id='edu'>
             <p className='text-white text-[5rem] font-bold text-center'><sapn className='text-red-700 text-[8rem]'>E</sapn>ducation</p>
             <div className='p-5 flex flex-wrap'>
                 {eduData.map((item) => (

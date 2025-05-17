@@ -18,7 +18,7 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 export default function Project() {
 
     return (
-        <div className="gallery-container mt-10 mb-15">
+        <div className="gallery-container mt-10 mb-15 bg-white pt-10 pb-10" id='project'>
             <p className="text-[3rem] md:text-[4rem] font-black text-white  [-webkit-text-stroke:1.2px_black] mb-10 md:mb-16 text-center"><span className='text-red-600 [-webkit-text-stroke:0.5px_black]'>My</span> Project</p>
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
@@ -45,7 +45,7 @@ export default function Project() {
                       slidesPerView: 3,
                     },
                   }}
-                className='w-[95%] md:w-[80%] slidOver'
+                className='w-[95%] md:w-[95%] slidOver bg-white'
             >
                 <SwiperSlide><div className='slideDiv'><img src={img1} alt="" className='slideImg'/><a href="https://simple-crud-1-uzmh.onrender.com/">MINI-CRUD APP</a></div></SwiperSlide>
                 <SwiperSlide><div className='slideDiv'><img src={img2} alt="" className='slideImg'/><a href="https://add-to-cart-mini.netlify.app/">MINI Add to Cart</a></div></SwiperSlide>

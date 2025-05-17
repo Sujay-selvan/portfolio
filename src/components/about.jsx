@@ -2,6 +2,8 @@ import React from "react";
 import img from '../image/profile.png'
 import '../App.css';
 
+import resume from '../image/sujay_resume.pdf';
+
 import { TbBrandLinkedinFilled } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -10,16 +12,16 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function About() {
     return (
-        <div className="about min-h-[600px] flex flex-col md:flex-row md:items-center">
-            <div className="w-full bg-black flex flex-col p-5 order-0">
+        <div className="about bg-white min-h-[600px] flex flex-col md:grid md:grid-cols-2 md:items-center" id="about">
+            <div className="w-full bg-black flex flex-col p-5 order-0 h-[100%]">
                 <p className="text-[60px] font-extrabold text-white border-b-2"><span className="text-red-600">A</span>bout</p>
                 <p className="text-orange-400 font-bold mt-7">Let's know who I am !?</p>
                 <p className="text-[1.2rem] text-justify mt-2 text-white">Hi, I'm Sujay, a passionate Full Stack Web Developer with a Master of Computer Applications (MCA) (2024). I have a strong foundation in MERN stack development and a keen interest in building dynamic, scalable, and user-friendly web applications.</p>
                 <p className="text-[1.2rem] text-justify mt-2 text-white">I have completed a Full Stack Web Development course, enhancing my expertise in React, Node.js, Express.js, and MongoDB. Additionally, I hold a Python certification from NPTEL Swayam, showcasing my versatility in backend development and automation.</p>
                 <p className="text-[1.2rem] text-justify mt-2 text-white">I'm always eager to learn and explore new technologies to build innovative solutions. Let's connect and collaborate!</p>
                 <div className="flex gap-1.5 mt-8 md:mt-15">
-                    <button className="border border-white w-2/4 md:w-1/3 p-2 rounded font-semibold text-white">Contact Now</button>
-                    <button className="border border-white w-2/4 md:w-1/3 bg-white  p-2 rounded font-semibold text-black">Download CV</button>
+                    <button className="border border-white w-2/4 md:w-1/3 p-2 rounded font-semibold text-white"><a href="#contact">Contact Now</a></button>
+                    <button className="border border-white w-2/4 md:w-1/3 bg-white  p-2 rounded font-semibold text-black"><a href={resume} download={'resume'}>Download CV</a></button>
                 </div>
                 
             </div>
