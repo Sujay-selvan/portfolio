@@ -42,11 +42,11 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className='flex gap-2 text-[1.5rem] mt-5 text-white'>
-                            <a href="https://www.facebook.com/sujay.selvan.5/"></a><FaFacebook />
-                            <a href="https://x.com/sujayselvan"></a><FaSquareXTwitter />
-                            <a href="https://www.linkedin.com/in/sujay-senthamilselvan-58077231b/"></a><FaLinkedin />
-                            <a href="https://www.instagram.com/_sujayx/"></a><FaInstagram />
-                            <a href="https://github.com/Sujay-selvan"></a><FaGithubSquare />
+                            <a href="https://www.facebook.com/sujay.selvan.5/"><FaFacebook /></a>
+                            <a href="https://x.com/sujayselvan"><FaSquareXTwitter /></a>
+                            <a href="https://www.linkedin.com/in/sujay-senthamilselvan-58077231b/"><FaLinkedin /></a>
+                            <a href="https://www.instagram.com/_sujayx/"><FaInstagram /></a>
+                            <a href="https://github.com/Sujay-selvan"><FaGithubSquare /></a>
                         </div>
                     </div>
                 </div>
